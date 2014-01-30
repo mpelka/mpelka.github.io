@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "load-grunt-tasks": "*",
+    "grunt": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*"
+  }
+}

@@ -12,7 +12,7 @@
 
     <meta name="viewport" content="width=device-width">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -21,8 +21,6 @@
   <body>
 
     <div class="header">
-
-
 
       <div class="content">
 
@@ -85,8 +83,9 @@
 
         <ul>
           <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#works">Works</a></li>
+          <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -102,9 +101,15 @@
 
           <h2>Few words about me</h2>
 
-          <p>I'm a self-taught front end developer. My goal is to deliver the best experience for the users. That's why I always strive to stay on top of the current trends in front end engineering. I firmly believe that <strong>performance</strong> and <strong>mobile first</strong> approach matter the most. I enjoy building everything from small <strong>websites</strong> to sophisticated, responsive <strong>web apps</strong>, that look great on any screen.</p>
+          <p>I'm a self-taught <strong>front end developer</strong>. My goal is to deliver the best experience and quality for the users. That's why I always strive to stay on top of the current trends in front end engineering. I firmly believe that <strong>performance</strong> and <strong>mobile first approach</strong> matter the most. I enjoy building everything from small <strong>websites</strong> to sophisticated, responsive <strong>web apps</strong>, that look great on any screen.</p>
 
-          <p>Here's what I'm good at. I've mastered <strong>HTML5</strong>, <strong>CSS3</strong> and  the arcane art of <strong>responsive web design</strong>. I use tools like <strong>SASS</strong>, <strong>Compass</strong>, <strong>Grunt.js</strong>, <strong>Bower</strong> and <strong>Vagrant</strong> on a daily basis to optimize my workflow. I use <strong>Twitter Bootstrap</strong> for fast prototyping. I use <strong>Git</strong> for version control but I'm also familiar with <strong>SVN</strong> and <strong>Mercurial</strong>. Since I've learned <strong>Backbone.js</strong> and <strong>jQuery</strong> I've become much better <strong>JavaScript</strong> programmer. I test my code in <strong>Mocha</strong> and <strong>Chai</strong>. In the past I've dabbled in <strong>PHP</strong>, <strong>Ruby</strong> and <strong>MySQL</strong>. I've built quite a few websites in <strong>Drupal</strong>. I know enough about <strong>Photoshop</strong> to slice PSDs and create prototypes. In my spare time I'm learning about <strong>Node.js</strong> and <strong>MongoDB</strong>.</p>
+        </div>
+
+        <div class="section" id="skills">
+
+          <h2>Skills</h2>
+
+          <p>During my career I've mastered <strong>HTML5</strong>, <strong>CSS3</strong> and the arcane art of <strong>responsive web design</strong>. To optimize my workflow I use tools like <strong>SASS</strong>, <strong>Compass</strong>, <strong>Grunt.js</strong>, <strong>Bower</strong> and <strong>Vagrant</strong> on a daily basis. I like to use <strong>Twitter Bootstrap</strong> for fast prototyping. I always keep my code in a <strong>Git</strong> repository and I'm also familiar with <strong>SVN</strong> and <strong>Mercurial</strong>. Since I've learned <strong>Backbone.js</strong> and <strong>jQuery</strong> I've become much better <strong>JavaScript</strong> programmer. I test my code in <strong>Mocha</strong> and <strong>Chai</strong>. In the past I've dabbled in <strong>PHP</strong>, <strong>Ruby</strong> and <strong>MySQL</strong>. I've built quite a few websites in <strong>Drupal</strong>. I know enough about <strong>Photoshop</strong> to slice and dice PSDs and to create prototypes. In my spare time I'm learning about <strong>Node.js</strong> and <strong>MongoDB</strong>.</p>
 
         </div>
 
@@ -160,18 +165,18 @@
 
         </div>
 
-        <div class="section" id="works">
+        <div class="section" id="work">
 
           <h2>Things I've built</h2>
 
           <figure class="clearfix">
             <div class="images clearfix">
-              <img src="images/screenshot-thumbnail-chillizet.jpg">
-              <img src="images/screenshot-thumbnail-cheil.jpg">
-              <img src="images/screenshot-thumbnail-samsung.jpg">
-              <img src="images/screenshot-thumbnail-bdm.jpg">
+              <a href="http://www.zetchilli.pl/" target="_blank"><img src="images/screenshot-thumbnail-chillizet.jpg"></a>
+              <a href="http://www.cheildigital.eu/index.html" target="_blank"><img src="images/screenshot-thumbnail-cheil.jpg"></a>
+              <a href="http://www.samsung.com/pl/brandstoresferis/" target="_blank"><img src="images/screenshot-thumbnail-samsung.jpg"></a>
+              <a href="http://www.bdbmaniery.pck.org.pl/" target="_blank"><img src="images/screenshot-thumbnail-bdm.jpg"></a>
             </div>
-            <figcaption>Left to right: new portal for Eurozet, portfolio site for Cheil, landing page for Samsung, and landing page for Very Good Manners campaign.</figcaption>
+            <figcaption>Left to right: new portal for Eurozet, portfolio site for Cheil, a landing page for Samsung, and a landing page for Polish Red Cross.</figcaption>
           </figure>
 
         </div>
@@ -184,7 +189,7 @@
 
       <div class="content">
         <h2>Contact me</h2>
-        <div class="email"><a href="mailto:marek.pelka@gmail.com"><span class="icon-envelope"></span></a></div>
+        <div class="email"><a href="mailto:marek.pelka@gmail.com" target="_blank"><span class="icon-envelope"></span></a></div>
       </div>
 
     </div>
@@ -196,11 +201,8 @@
         <li>Hosted on <span class="icon-github"></span></li>
       </ul>
     </div>
-<!--
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/jquery-fittext.js/jquery.fittext.js"></script>
-     -->
-    <script src="javascript/main.js"></script>
+
+    <script src="javascript/main.min.js"></script>
 
   </body>
 
